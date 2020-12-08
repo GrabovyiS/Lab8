@@ -1,8 +1,8 @@
 for (let i = 0; i<16; i++){
   if (i%2 == 0) {
-    console.log(i + ' чётное')
+    console.log(i + ' чётное');
   }
   else {
-    console.log(i + ' нечётное')
+    console.log(i + ' нечётное');
   }
 }

@@ -1,6 +1,6 @@
 let t;
 function sorting (num1,num2,num3){
-  let sortArr = [num1,num2,num3]
+  let sortArr = [num1,num2,num3];
   if (sortArr[2] < sortArr[1]){
     t = sortArr[2];
     sortArr[2] = sortArr[1];
@@ -11,6 +11,6 @@ function sorting (num1,num2,num3){
     sortArr[1] = sortArr[0];
     sortArr[0] = t;
   }
-  console.log(sortArr)
+  console.log(sortArr);
 }
 sorting(0,-3,1);
