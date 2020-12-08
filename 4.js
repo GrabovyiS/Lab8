@@ -11,6 +11,6 @@ function sorting (num1,num2,num3){
     sortArr[1] = sortArr[0];
     sortArr[0] = t;
   }
-  console.log(sortArr);
+  console.log(sortArr[0],sortArr[1],sortArr[2]);
 }
 sorting(0,-3,1);
